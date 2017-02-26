@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>'s website</title>
+    <meta name="description" content="Monica's projects">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+
+<body>
+    <div></div>
+
+    <div class="main">
+  <div class="cover-photo">
+        <img src="http://eoimages.gsfc.nasa.gov/images/imagerecords/55000/55167/earth_lights_lrg.jpg" alt= "world"
+        style="width:1080px;height:200px;">
+    <div class="tab">
+  <a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Latest')">Latest</a>
+  <a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Subscribe')">Subscribe</a>
+  <a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Contact')">Contact</a>
+</div>
+
+<div id="Latest" class="tabcontent">
+  <h3>Latest</h3>
+  <p>Here is the latest news.</p>
+</div>
+
+<div id="Subscribe" class="tabcontent">
+  <h3>Subscribe</h3>
+  <p>Join our mailing list here.</p> 
+</div>
+
+<div id="Contact" class="tabcontent">
+  <h3>Contact</h3>
+  <p>Contact us here!</p>
+</div>
+        <h1> Welcome to!</h1>
+    </div>
+    <img src="http://www.execuquest.com/wordpress/wp-content/uploads/2014/01/team-versus-group.jpg" style="width:40%">
+    <div class="about-us">
+    <p> This is out about us paragraph. </p>
+    </div>
+    <div class="why-do-we-do-this">
+   <h2> Why do we do this?</h2>
+   <p class="purpose"> This is the paragraph that tells you what we do and why we do it. </p>
+    </div>
+
+
+<body>
+    <!DOCTYPE html>
+<html>
+<body>
+
+<h2>Where to find us:</h2>
+
+<div id="map" style="width:400px;height:400px;background:yellow"></div>
+
+<script>
+function myMap() {
+var mapOptions = {
+    center: new google.maps.LatLng(43.0861, 77.6705),
+    zoom: 10,
+    mapTypeId: google.maps.MapTypeId.HYBRID
+}
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+
+
+</body>
+</html>
+
+ 
+</html>

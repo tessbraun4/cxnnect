@@ -1,0 +1,54 @@
+
+/* helpful links
+colors: http://www.color-hex.com/
+font-family: https://www.w3schools.com/cssref/css_websafe_fonts.asp
+css cheatsheet: http://www.pxleyes.com/blog/wp-content/uploads/2010/03/css-cheatsheet.pdf */
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+.registration {
+	padding-left: 20px;
+}
+
+.clearfix {
+	padding-left: 50px;
+}
+
+.username {
+	margin-left: 76px;
+}
+
+.password {
+	margin-left: 78px;
+}
+
+.email {
+	margin-left: 111px;
+}
+
+.country {
+	margin-left: 40px;
+	width: 254px;
+}
+
+.thanks {
+	font-size: 30px;
+}
+
+.registered {
+	padding-left: 20px;
+}
+
+input {
+	width: 250px;
+	margin-left: 20px;
+}
+
+h1 {
+	padding-left: 20px;
+}

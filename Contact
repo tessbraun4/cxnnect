@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background-color: lightgray;}
+h1   {color: solid black;
+      font-style: italic;
+      font-size: 50px;
+      text-align: center;
+}
+	form {
+text-align: center;	}
+p    {color: solid black;}
+
+textarea {
+	text-align: center;
+}
+
+	col
+
+
+
+</style>
+</head>
+<body>
+
+<h1>Contact Us</h1>
+
+
+
+</body>
+</html>
+
+<form>
+  First Name:
+ <input type="Name" name="">
+ </form>
+ 	<form>
+ 	 Last Name:
+ 	<input type="Name" name="">
+ 	</form>
+ <form>
+ Email Address:
+ <input type="Name" name="">
+ </form>
+
+ 	<textarea rows="4" cols="50">
+ 	Comments
+ 	</textarea>
